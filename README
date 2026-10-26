@@ -1,0 +1,25 @@
+# GTA San Andreas : Insane Difficulty (version corrigée)
+
+Version corrigée du mod **Insane Difficulty** pour GTA San Andreas, utilisée pour finir toute l'histoire en mode HARDCORE.
+
+## Crédits
+Le mod original appartient à **JhoshuaEnterman** : https://www.nexusmods.com/gtasanandreas/mods/2605.
+Ce dépôt ne contient que des corrections du script `main.scm`. Il s'agit d'une modification non officielle, sans lien avec l'auteur du mod.
+
+## Ce qui a été corrigé
+- **Misappropriation** : mauvais personnage ciblé pour la cadence et la compétence du tireur.
+- **Outrider** : crash corrigé (mauvais modèle de véhicule chargé).
+- **A Home in the Hills** : commande risquée sur un ennemi déjà supprimé neutralisée.
+- **Los Desperados** : niveau de compétence d'arme incohérent corrigé.
+- **End of the Line** : crash au passage vers le combat final corrigé, combat contre Big Smoke rééquilibré, nettoyage des personnages après la victoire, corrections dans la partie fuite (modèles d'armes, position de Tenpenny).
+- **Chop Shop** : les marqueurs en double pouvaient saturer la carte et faire disparaître objectifs et icônes sur certaines sauvegardes. Le script a été ajusté.
+
+## Installation
+1. Télécharge la dernière version dans l'onglet **Releases**.
+2. Suis les instructions d'installation de la page du mod, en utilisant les fichiers de cette version à la place de ceux du modloader d'origine.
+3. **Supprime le fichier `GInput.asi`** dans le dossier `scripts` du jeu d'origine. C'est ce qui a fait fonctionner le mod chez moi.
+
+## Remarques
+- Avec ces correctifs, j'ai pu terminer le jeu de bout en bout.
+- Si tu as un crash, indique la mission concernée en commentaire de la vidéo.
+- Pense à garder une copie de tes fichiers d'origine avant de remplacer quoi que ce soit.
